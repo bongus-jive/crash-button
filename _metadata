@@ -1,0 +1,11 @@
+{
+  "version" : "1.0",
+  "author" : "patman",
+  "tags" : "Miscellaneous|User Interface",
+  "description" : "replaces the collections button with a button to crash your game\nthats it\n\ncollections are in quickbar if you really want them (you dont)\n\n[b][url=https://steamcommunity.com/workshop/filedetails/?id=1088459034]get quickbar here if you dont have it for some reason[/url][/b]\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=764887546]stardustlib also has quickbar in it if you really want to use that instead[/url]\n\n\nit shouldnt break any mod that changes the collection gui for whatever reason\n\n\n[h1]https://discord.gg/GdsQSgV[/h1]\nhttps://www.patreon.com/pathiccstar",
+  "name" : "crsahbutton",
+  "friendlyName" : "button that crashes your game",
+  "steamContentId" : "2426285999",
+  "link" : "steam://url/CommunityFilePage/2426285999",
+  "includes" : ["QuickbarMini", "StardustLib"]
+}
