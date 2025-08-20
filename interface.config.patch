@@ -1,27 +1,7 @@
 [
-  {
-    "op": "replace",
-    "path": "/mainBar/collections/base",
-    "value": "/interface/scripted/collections/pat_crashbutton.png:base"
-  },
-  {
-    "op": "replace",
-    "path": "/mainBar/collections/hover",
-    "value": "/interface/scripted/collections/pat_crashbutton.png:hover"
-  },
-  {
-    "op": "replace",
-    "path": "/mainBar/collections/open",
-    "value": "/interface/scripted/collections/pat_crashbutton.png:open"
-  },
-  {
-    "op": "replace",
-    "path": "/mainBar/collections/openHover",
-    "value": "/interface/scripted/collections/pat_crashbutton.png:openHover"
-  },
-  {
-    "op": "replace",
-    "path": "/cursorTooltip/collectionsText",
-    "value": "Crash"
-  }
+  { "op": "replace", "path": "/mainBar/collections/base", "value": "/interface/scripted/collections/pat_crashbutton.png:base" },
+  { "op": "replace", "path": "/mainBar/collections/hover", "value": "/interface/scripted/collections/pat_crashbutton.png:hover" },
+  { "op": "replace", "path": "/mainBar/collections/open", "value": "/interface/scripted/collections/pat_crashbutton.png:open" },
+  { "op": "replace", "path": "/mainBar/collections/openHover", "value": "/interface/scripted/collections/pat_crashbutton.png:openHover" },
+  { "op": "replace", "path": "/cursorTooltip/collectionsText", "value": "Crash" }
 ]

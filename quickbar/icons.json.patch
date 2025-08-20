@@ -1,10 +1,6 @@
 [
 	[
-		{
-			"op": "test",
-			"path": "/items/starbound:collectionsgui",
-			"inverse": true
-		},
+		{ "op": "test", "path": "/items/starbound:collectionsgui", "inverse": true },
 		{
 			"op": "add",
 			"path": "/items/starbound:collectionsgui",
