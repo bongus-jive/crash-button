@@ -1,21 +1,11 @@
-local oldInit = init or function() end
+local _init = init
 
 function init()
-	local openOld = config.getParameter("pat_openOld")
-	
-	if openOld then
-		local cfg = root.assetJson("/interface/scripted/collections/collectionsgui.config")
-		cfg.pat_dontCrash = true
-		
-		player.interact("ScriptPane", cfg)
-		pane.dismiss()
-	else
-		local dontCrash = config.getParameter("pat_dontCrash")
-		
-		if dontCrash then
-			oldInit()
-		else
-			widget.setImage("scrollBG", "//")
-		end
-	end
+  if not config.getParameter("pat_openCollections") then
+    root.nonEmptyRegion("/assetmissing.png?scalenearest=-1")
+    pane.dismiss()
+    return
+  end
+
+  if _init then _init() end
 end
